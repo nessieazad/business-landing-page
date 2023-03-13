@@ -18,3 +18,25 @@
         font-size: 36px;
     }
 }
+
+.text-responsive {
+    width: 75%;
+}
+
+@media screen and (max-width: 820px) {
+    .text-responsive {
+        width: 100%;
+
+    }
+}
+
+.demo-responsive {
+    height: 60vh;
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .demo-responsive {
+        width: 100%;
+    }
+}
