@@ -74,3 +74,10 @@
 .customers-say {
     width: 80%;
 }
+
+
+@media screen and (max-width: 393px) {
+    .customers-say {
+        width: 100%;
+    }
+}
